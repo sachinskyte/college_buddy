@@ -290,6 +290,8 @@
                 <a href="pages/roadmap.html" class="nav-link">Roadmap</a>
             </nav>
         </div>
+       
+<script defer src="/_vercel/insights/script.js"></script>
     </header>
 
     <section class="hero">
@@ -340,6 +342,12 @@
         <p class="tagline">*Developed with students in mind, for students by a student*</p>
         <p><a href="https://docs.google.com/forms/d/e/1FAIpQLSciD1CUiYUpiz4mtQSTYG9XeCRyG3CEhr9GNL03WxmRbFOgkw/viewform?usp=dialog" target="_blank" class="feedback-link">Feedback</a></p>
     </footer>
+    <script>
+        import { inject } from '@vercel/analytics';
+
+// Initialize analytics
+inject();
+    </script>
     <script>
         // Utility function to detect mobile devices
         function isMobile() {
